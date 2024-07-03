@@ -25,4 +25,4 @@ jobs:
         uses: actions/upload-artifact@v4.3.3 #Get From Marketplace
         with:
           name: AndroidCICD.apk #Result of App Build in Debug Mode
-          path: app/build/outputs/apk/app-debug.apk   #Debug Version Apk saved path
+          path: app/build/outputs/apk/debug/app-debug.apk   #Debug Version Apk saved path
